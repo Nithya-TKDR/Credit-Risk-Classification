@@ -14,6 +14,9 @@
 **Results**: Based on the classification report of the underlying regression model, both the macro and weighted average of its accuracy scores are computed along with the precision and recall scores for each of healthy and high-default risk loan types based on the trained datasets of the original data. <br>
 > - *Precision Scores*: This model has a precision score of 100% for the healthy loans and 87% for the high-risk loans. The precision scores imply that the healthy loans were classified correctly as positive 100% of the times. However, for the high-risk loans, the classification was correct only 87% of the times. This can perhaps be attributed to the imbalance and skewness in data where the vast majority of the datasets `75036 out of 77536` point to healthy loans.
 > - *Recall Scores*: This model has a recall score of 100% for the healthy loans and 89% for the high-risk loans. The scores imply that for all the instances where the loans were actually healthy, they were classified correctly. However, for all the instances where the loans were actually high-risk, they were classified correctly only 89% of the times.
+> - *Classification Report Summary*: <br>
+
+<img width="454" alt="Classification Report" src="https://github.com/Nithya-TKDR/Credit-risk-classification/assets/153051184/3bf7da11-0c83-4541-94ac-2576d737794a"><br>
 
 **Summary**: Based on the output of the regression model, the following can be inferred:
 > 1) Precision measures the proportion of correctly predicted instances out of the total predicted instances for a specific label. For the *healthy loan* class, the precision is 1.00, indicating that the model predicts this label with perfect precision. For the *high-risk loan* class, the precision is 0.87, meaning that 87% of the predicted high-risk loans are correct.
